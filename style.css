@@ -50,6 +50,13 @@ body {
   width: 100%;
   overflow: auto;
 }
+.main-div-mex {
+  scrollbar-width: none; /*non è supportato da ogni browser*/
+}
+.main-div-mex::-webkit-scrollbar { /*non è supportato da ogni browser*/
+  width: 0; 
+  height: 0; 
+}
 .div-mex {
   height: 60px;
   width: 100%;
@@ -78,6 +85,8 @@ body {
 .archive-par {
   margin-left: 15px;
   flex: 1;
+  font-size: 13px;
+  font-weight: 600;
 }
 .archive-notification {
   margin-right: 10px;
@@ -105,8 +114,8 @@ body {
   flex: 1;
 }
 .name {
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: bold;
 }
 .mex {
   font-size: 12px;
@@ -139,11 +148,12 @@ body {
   align-items: center;
 }
 .footer-icon {
-  height: 30px;
+  height: 25px;
 }
 .footer-sub-div {
   display: flex;
   flex-direction: column;
-  font-size: 12px;
+  font-size: 11px;
   align-items: center;
+  font-weight: ;
 }
