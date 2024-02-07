@@ -64,3 +64,38 @@ a {
   filter: invert(0.8);
   cursor: pointer;
 }
+.main-div-messaggi-utente {
+  background-color: red;
+  height: 83%;
+  width: 100%;
+  overflow: auto;
+}
+.footer-chat {
+  background-color: blue;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.footer-elements {
+  display: flex;
+  
+}
+.input-div {
+  background-color: purple;
+  height: 100%;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+  height: 34px;
+  border-radius: 20px;
+  border: none;
+  background-color: #D1D1D1;
+}
+.input::placeholder {
+  padding-left: 35px; 
+}
