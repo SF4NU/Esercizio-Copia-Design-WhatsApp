@@ -1,0 +1,66 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.chat-header {
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #075e54;
+  width: 100%;
+  align-items: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.whatsapp-chat-layout {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 229, 221);
+    height: 600px;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+}
+.left-header {
+  display: flex;
+  flex-direction: row;
+  color: rgba(223, 223, 223, 1);
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+.profile-picture-img {
+  height: 35px;
+  cursor: pointer;
+}
+.back-arrow {
+  height: 30px;
+  cursor: pointer;
+}
+.chat-name {
+  margin-left: 6px;
+  cursor: pointer;
+}
+.chat-call-icon,
+.three-dot-chat {
+  height: 22px;
+  filter: invert(0.85);
+  cursor: pointer;
+}
+.right-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 120px;
+  height: 100%;
+  margin-top: 4px;
+}
+.video-call-icon {
+  height: 30px;
+  filter: invert(0.8);
+  cursor: pointer;
+}
