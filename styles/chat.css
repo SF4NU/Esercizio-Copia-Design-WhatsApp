@@ -65,13 +65,11 @@ a {
   cursor: pointer;
 }
 .main-div-messaggi-utente {
-  background-color: red;
   height: 83%;
   width: 100%;
   overflow: auto;
 }
 .footer-chat {
-  background-color: blue;
   height: 50px;
   width: 100%;
   display: flex;
@@ -82,15 +80,15 @@ a {
   
 }
 .input-div {
-  background-color: purple;
   height: 100%;
-  width: 250px;
+  width: 260px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .input {
-  width: 100%;
+  width: 95%;
   height: 34px;
   border-radius: 20px;
   border: none;
@@ -98,4 +96,27 @@ a {
 }
 .input::placeholder {
   padding-left: 35px; 
+}
+.emote {
+  position: absolute;
+  left: 11px;
+}
+.camera-icon-chat {
+  height: 27px;
+  position: absolute;
+  right: 12px;
+}
+.clip-icon {
+  height: 28px;
+  position: absolute;
+  right: 45px;
+}
+.voice-chat-icon {
+  height: 37px;
+}
+.voice-chat-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
