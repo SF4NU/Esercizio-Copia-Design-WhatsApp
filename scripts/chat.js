@@ -30,3 +30,4 @@ document.querySelector('.js-messaggi-utente').innerHTML = messaggiHTML;
      document.querySelector('.input').value = '';
    }
  });
+ console.log('hi')
