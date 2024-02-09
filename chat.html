@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="styles/chat.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="styles/chat.css">
-</head>
-
-<body>
-  <div class="whatsapp-chat-layout">
-    <div class="chat-header">
-      <div class="left-header">
-        <a><div><img class="back-arrow" src="icons/arrow-back-basic-svgrepo-com.svg"></div></a>
-        <div>
-          <img class="profile-picture-img" src="profilepictures/user.png">
+  <body>
+    <div class="whatsapp-chat-layout">
+      <div class="chat-header">
+        <div class="left-header">
+          <a
+            ><div>
+              <img
+                class="back-arrow"
+                src="icons/arrow-back-basic-svgrepo-com.svg" /></div
+          ></a>
+          <div>
+            <img class="profile-picture-img" src="profilepictures/user.png" />
+          </div>
+          <div class="chat-name">Nome</div>
         </div>
-        <div class="chat-name">Nome</div>
-      </div>
-      <div class="right-header">
-        <div>
-          <img class="video-call-icon" src="icons/video-call-svgrepo-com.svg">
-        </div>
-        <div>
-          <img class="chat-call-icon" src="icons/phone-call.png">
-        </div>
-        <div>
-          <img class="three-dot-chat" src="icons/dot-menu-more-svgrepo-com.svg">
+        <div class="right-header">
+          <div>
+            <img
+              class="video-call-icon"
+              src="icons/video-call-svgrepo-com.svg" />
+          </div>
+          <div>
+            <img class="chat-call-icon" src="icons/phone-call.png" />
+          </div>
+          <div>
+            <img
+              class="three-dot-chat"
+              src="icons/dot-menu-more-svgrepo-com.svg" />
+          </div>
         </div>
       </div>
     </div>
@@ -43,11 +52,22 @@
           <img class="clip-icon" src="/icons/clip-2-svgrepo-com.svg">
           <img class="camera-icon-chat" src="icons/camera-svgrepo-com.svg">
         </div>
-      </div>
-      <div class="voice-chat-div">
-        <img class="voice-chat-icon" src="icons/voice.png">
+       </div>
+      <div class="footer-chat">
+        <div class="footer-elements">
+          <div class="input-div">
+            <input placeholder="Messaggio" type="text" class="input" />
+            <img class="emote" src="icons/emote.svg" />
+            <img class="clip-icon" src="/icons/clip-2-svgrepo-com.svg" />
+            <img class="camera-icon-chat" src="icons/camera-svgrepo-com.svg" />
+          </div>
+        </div>
+        <div class="voice-chat-div">
+          <img class="voice-chat-icon" src="icons/voice.png" />
+        </div>
       </div>
     </div>
+
   </div>
   
   <script type="module" src="scripts/chat.js">
@@ -56,3 +76,4 @@
 </body>
 
 </html>
+  

@@ -80,7 +80,6 @@ a {
 }
 .footer-elements {
   display: flex;
-  
 }
 .input-div {
   height: 100%;
@@ -97,8 +96,6 @@ a {
   border: none;
   background-color: #D1D1D1;
   text-indent: 35px;
-}
-.input::placeholder {
 }
 .emote {
   position: absolute;
@@ -123,6 +120,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .messaggio1 {
   background-color: rgb(18,140,126);
   color: white;
