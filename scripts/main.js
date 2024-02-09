@@ -1,4 +1,4 @@
-import {people} from "../data/data.js";
+import {people, conversazione} from "../data/data.js";
 let chatHTML = ''
 people.forEach((person) => {
   chatHTML += `
@@ -18,3 +18,5 @@ people.forEach((person) => {
   `;
 })
   document.querySelector('.js-main-div-mex').innerHTML = chatHTML;
+
+

@@ -91,3 +91,21 @@ export let people = [
     notifications: 678
     }
 ];
+
+export let conversazione = [
+  { messaggio1: "Ciao!",
+    messaggio2: "Ciao! Come stai?" },
+  { messaggio1: "Bene, grazie! Tu?",
+    messaggio2: "Anch'io sto bene, grazie!" },
+  { messaggio1: "Cosa stai facendo?",
+    messaggio2: "Sto lavorando. Tu?" },
+  { messaggio1: "Anch'io sto lavorando.",
+    messaggio2: "Che lavoro fai?" },
+  { messaggio1: "Sono uno sviluppatore software.",
+    messaggio2: "Interessante! Cosa stai sviluppando ora?" },
+  { messaggio1: "Attualmente sto lavorando su un progetto di e-commerce.",
+    messaggio2: "Davvero? Mi piacerebbe saperne di più!" },
+  { messaggio1: "Ti posso dare più dettagli più tardi se vuoi.",
+    messaggio2: "Va bene, non vedo l'ora di saperne di più!" }
+];
+

@@ -13,6 +13,8 @@ a {
   align-items: center;
   vertical-align: middle;
   font-weight: bold;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .whatsapp-chat-layout {
@@ -23,6 +25,7 @@ a {
     align-items: center;
     margin: 0 auto;
     width: 300px;
+    border-radius: 10px;
 }
 .left-header {
   display: flex;
@@ -93,9 +96,9 @@ a {
   border-radius: 20px;
   border: none;
   background-color: #D1D1D1;
+  text-indent: 35px;
 }
 .input::placeholder {
-  padding-left: 35px; 
 }
 .emote {
   position: absolute;
@@ -112,11 +115,40 @@ a {
   right: 45px;
 }
 .voice-chat-icon {
-  height: 37px;
+  height: 36px;
 }
 .voice-chat-div {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.messaggio1 {
+  background-color: rgb(18,140,126);
+  color: white;
+  margin-top: 5px;
+  width: 75%;
+  border-radius: 12px;
+  padding: 7px 18px 17px 10px;
+  margin-left: 10px;
+  position: relative;
+  border-top-left-radius: 0px;
+}
+.time-messaggio {
+  position: absolute;
+  right: 7px;
+  bottom: 4px;
+  color: lightgray;
+  font-size: 13px;
+}
+.messaggio2 {
+  background-color: #61637D;
+  color: white;
+  margin-top: 5px;
+  width: 75%;
+  border-radius: 12px;
+  padding: 7px 18px 16px 10px;
+  margin-left: 38px;
+  position: relative;
+  border-top-right-radius: 
 }
