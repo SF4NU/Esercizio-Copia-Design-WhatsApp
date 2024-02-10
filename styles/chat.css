@@ -114,19 +114,23 @@ a {
 .emote {
   position: absolute;
   left: 11px;
+  cursor: pointer;
 }
 .camera-icon-chat {
   height: 27px;
   position: absolute;
   right: 12px;
+  cursor: pointer;
 }
 .clip-icon {
   height: 28px;
   position: absolute;
   right: 45px;
+  cursor: pointer;
 }
 .voice-chat-icon {
   height: 36px;
+  cursor: pointer;
 }
 .voice-chat-div {
   width: 100%;
