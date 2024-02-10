@@ -1,3 +1,6 @@
+body {
+  font-family: Roboto, Arial;
+}
 a {
   text-decoration: none;
   color: black;
@@ -71,7 +74,17 @@ a {
   height: 83%;
   width: 100%;
   overflow: auto;
+  scroll-behavior: smooth;
 }
+
+.main-div-messaggi-utente {
+  scrollbar-width: none; /*non è supportato da ogni browser*/
+}
+.main-div-messaggi-utente::-webkit-scrollbar { /*non è supportato da ogni browser*/
+  width: 0; 
+  height: 0; 
+}
+
 .footer-chat {
   height: 50px;
   width: 100%;
@@ -97,8 +110,6 @@ a {
   border: none;
   background-color: #D1D1D1;
   text-indent: 35px;
-}
-.input::placeholder {
 }
 .emote {
   position: absolute;
@@ -150,5 +161,5 @@ a {
   padding: 7px 18px 16px 10px;
   margin-left: 38px;
   position: relative;
-  border-top-right-radius: 
+  border-top-right-radius: 0;
 }
