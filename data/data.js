@@ -1,92 +1,92 @@
 export let people = [
   {
     name: "John",
-    message: "Hello, how are you?",
+    message: "Ciao, come stai?",
     hour: "10:00",
     notifications: 3
     },
   {
     name: "Alice",
-    message: "I'm doing great, thanks!",
+    message: "Sto benissimo, grazie!",
     hour: "11:30",
     notifications: 1
     },
   {
     name: "Mike",
-    message: "What's up everyone?",
+    message: "Che succede a tutti?",
     hour: "13:45",
     notifications: 5
     },
   {
     name: "Sarah",
-    message: "Has anyone seen my keys?",
+    message: "Qualcuno ha visto le mie chiavi?",
     hour: "14:15",
     notifications: 5
     },
-    // Add more people as needed
+    // Aggiungi altre persone se necessario
   {
     name: "Emily",
-    message: "I love this weather!",
+    message: "Amo questo tempo!",
     hour: "15:00",
     notifications: 2
     },
   {
     name: "David",
-    message: "Who wants to grab lunch?",
+    message: "Chi vuole pranzare insieme?",
     hour: "12:00",
     notifications: 4
     },
   {
     name: "Sophia",
-    message: "Happy birthday, John!",
+    message: "Buon compleanno, John!",
     hour: "9:00",
     notifications: 1
     },
   {
     name: "Ryan",
-    message: "I'll be late for the meeting.",
+    message: "Arriverò in ritardo alla riunione.",
     hour: "16:30",
     notifications: 1
     },
   {
     name: "Emma",
-    message: "Can someone help me with this problem?",
+    message: "Qualcuno può aiutarmi con questo problema?",
     hour: "15:45",
     notifications: 2
     },
   {
     name: "Daniel",
-    message: "Ready for the weekend!",
+    message: "Pronto per il weekend!",
     hour: "17:00",
     notifications: 3
     },
   {
     name: "Olivia",
-    message: "Does anyone have a pen I can borrow?",
+    message: "Qualcuno ha una penna che posso prendere in prestito?",
     hour: "11:00",
     notifications: 9
     },
   {
     name: "Michael",
-    message: "Just finished my project!",
+    message: "Ho appena finito il mio progetto!",
     hour: "14:00",
     notifications: 7
     },
   {
     name: "Ella",
-    message: "What's for dinner tonight?",
+    message: "Cosa si mangia stasera?",
     hour: "18:15",
     notifications: 2
     },
   {
     name: "William",
-    message: "Looking forward to the game tonight!",
+    message: "Non vedo l'ora della partita stasera!",
     hour: "19:30",
     notifications: 1
     },
   {
     name: "Ava",
-    message: "Anyone up for a movie night?",
+    message: "Qualcuno è interessato a una serata cinema?",
     hour: "20:45",
     notifications: 678
     }
@@ -107,5 +107,13 @@ export let conversazione = [
     messaggio2: "Davvero? Mi piacerebbe saperne di più!" },
   { messaggio1: "Ti posso dare più dettagli più tardi se vuoi.",
     messaggio2: "Va bene, non vedo l'ora di saperne di più!" }
+];
+
+export const risposte = [
+  "Interessante. Cosa ne pensi?",
+  "Capisco. Hai altri dettagli da condividere?",
+  "Grazie per condividere. Vorresti approfondire questo argomento?",
+  "Hmm, interessante punto di vista. Hai delle altre domande?",
+  "Mi hai fatto riflettere. C'è qualcos'altro che vorresti discutere?"
 ];
 

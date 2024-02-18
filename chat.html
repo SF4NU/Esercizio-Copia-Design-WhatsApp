@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/chat.css">
 </head>
 
@@ -12,7 +17,7 @@
   <div class="whatsapp-chat-layout">
     <div class="chat-header">
       <div class="left-header">
-        <a><div><img class="back-arrow" src="icons/arrow-back-basic-svgrepo-com.svg"></div></a>
+        <a href="index.html"><div><img class="back-arrow" src="icons/arrow-back-basic-svgrepo-com.svg"></div></a>
         <div>
           <img class="profile-picture-img" src="profilepictures/user.png">
         </div>
@@ -30,7 +35,7 @@
         </div>
       </div>
     </div>
-    <div class="main-div-messaggi-utente">
+    <div class="main-div-messaggi-utente" id="scrollable">
       <div class="messaggi-utente js-messaggi-utente">
         
       </div>  
